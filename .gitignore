@@ -1,0 +1,27 @@
+# Ignore node stuff
+node_modules/
+yarn-error.log
+
+# Ignore build stuff
+cache/
+build/
+dist/
+
+# Buidler cache
+cached/
+artifacts
+
+# Ignore solc bin output
+bin/
+
+# Others
+.env
+.DS_Store
+.vscode
+deployments
+
+# Reports
+/reports
+
+# OpenZeppelin
+.openzeppelin/unknown-*.json
